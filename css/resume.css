@@ -194,3 +194,8 @@ a:hover, a:focus, a:active {
 .imgSizeArtist {
   width:50% !important;
 }
+
+.inline-block {
+  vertical-align: top;
+  display: inline-block
+}
