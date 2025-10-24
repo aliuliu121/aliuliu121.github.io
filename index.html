@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,19 +24,18 @@
         <h1><a href="index.html">Allen Liu</a></h1>
         <p class="lead">
             <a href="index.html">Projects</a> •
-            <a href="about.html">About</a> •
             <a href="./files/allen_liu_resume.pdf" target="_blank">Resume</a>
         </p>
     </div>
 
-<div class="content">
+    <div class="content">
 
-<div class="container">
-    <h2>
-        Projects
-        
-    </h2>
-    <p class="lead">Hopefully something here will catch your eye.</p>
+        <div class="container">
+            <h2>
+                Projects
+
+            </h2>
+            <!-- <p class="lead">Hopefully something here will catch your eye.</p>
     <h4>Table of Contents</h4>
     <div class="row hidden-xs">     
             <div class="col-sm-3">
@@ -112,352 +111,458 @@
                 </ul>
             </div>
         
-    </div>
-</div>
+    </div> -->
+        </div>
+        <!-- 
+        <div class="project-sort"></div> -->
 
-<div class="project-sort"></div>
+        <a name="io-v2"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>Io <small>v2</small></h3>
+            <p class="project-tags">
 
-<a name="io"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>Io <small>September 2022 - January 2023</small></h3>
-        <p class="project-tags">
+                <span class="label label-default">WIP</span>
+
+                <span class="label label-default">ROS2</span>
+
+                <span class="label label-default">Teleop</span>
 
                 <span class="label label-default">Face Tracking</span>
-    
+
+                <span class="label label-default">Python</span>
+
+                <span class="label label-default">C++</span>
+
+                <span class="label label-default">3D Printing</span>
+
+                <span class="label label-default">CAD</span>
+
+                <span class="label label-default">Robotics</span>
+            </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">A humanoid(-ish) robot</p>
+                    <div class="project-summary">
+                        <p> Different in just about every way from the original, IO (v2) is a robot I designed to learn
+                            more about robotics like teaching myself ROS2.
+                        </p>
+
+                        <p>Asthetically based on the
+                            machine lifeform from the game Nier Automata, IO features a fully articulating head driven
+                            by omniwheels and held down by magnets, two 4DOF arms (no hands yet), and an articulated
+                            torso.</p>
+
+                        <p>Currently can be controlled through teleop (face tracking plus a custom built physical teleop
+                            harness for the arms).</p>
+                    </div>
+
+                </div>
+
+                <div class="col col-sm-4">
+                    <video width="360" height="240" controls autoplay muted playsinline loop>
+                        <source src="./files/video/io.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <a name="io"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>Io <small>September 2022 - January 2023</small></h3>
+            <p class="project-tags">
+
+                <span class="label label-default">Face Tracking</span>
+
                 <span class="label label-default">Python</span>
 
                 <span class="label label-default">Arduino</span>
-            
+
                 <span class="label label-default">3D Printing</span>
 
                 <span class="label label-default">CAD</span>
 
                 <span class="label label-default">Animatronics</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">A robotic puppet controlled by face tracking.</p>
-            <div class="project-summary">
-                <p> Using the TrueDepth camera system of the iPhone (powers FaceID), we can track the operator's head movement and facial expressions.
-                </p>
-                
-                <p>These parameters are transmitted to Io and used to control positions of the 2D face as well as the articulated neck.</p>
-                    
-                <p>Current features include motion recording and playback including the facial expressions.</p>
+            </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">A robotic puppet controlled by face tracking.</p>
+                    <div class="project-summary">
+                        <p> Using the TrueDepth camera system of the iPhone (powers FaceID), we can track the operator's
+                            head movement and facial expressions.
+                        </p>
+
+                        <p>These parameters are transmitted to Io and used to control positions of the 2D face as well
+                            as the articulated neck.</p>
+
+                        <p>Current features include motion recording and playback including the facial expressions.</p>
+                    </div>
+
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/io01.gif" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
             </div>
-            
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/io01.gif" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
+        <hr>
 
-<hr>
-
-<a name="dashboard"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>LED Matrix Dashboard <small>August 2021 - March 2022</small></h3>
-        <p class="project-tags">
+        <a name="dashboard"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>LED Matrix Dashboard <small>August 2021 - March 2022</small></h3>
+            <p class="project-tags">
 
                 <span class="label label-default">Raspberry Pi</span>
-    
+
                 <span class="label label-default">Python</span>
 
                 <span class="label label-default">C</span>
-            
+
                 <span class="label label-default">3D Printing</span>
 
                 <span class="label label-default">CAD</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">A physical dashboard featuring Notion and Spotify integration.</p>
-            <div class="project-summary">
-                <p>It provides a constant view of relevant info from basic things like time and weather to eye candy like custom gifs 
-                    and patterns to productivity related stuff like todo lists to even phone notifications.
-                </p>
-                
-                <p>With its rotary encoder, the user can change what information is displayed as well as interface with services like Spotify for playback control.</p>
-
-                <p>Built around a Raspberry Pi 3B and a generic 32 x 64 LED Matrix Panel. The main logic is written in Python with a simple C program for low level control of the display.</p>
-                    
-                <p>Current Features include: Time and Weather, Phone Notifications, Notion Support, Spotify Playback Control, GIF viewer, Game of Life, and Stock Price Viewer</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://gitfront.io/r/aliuliu121/61344a0f25cf0c1dfb476a062d62946392ca86eb/matrix-display/" target="_blank">GitHub</a> • <a href="https://imgur.com/a/8NkqXuK" target="_blank">More Media</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">A physical dashboard featuring Notion and Spotify integration.</p>
+                    <div class="project-summary">
+                        <p>It provides a constant view of relevant info from basic things like time and weather to eye
+                            candy like custom gifs
+                            and patterns to productivity related stuff like todo lists to even phone notifications.
+                        </p>
+
+                        <p>With its rotary encoder, the user can change what information is displayed as well as
+                            interface with services like Spotify for playback control.</p>
+
+                        <p>Built around a Raspberry Pi 3B and a generic 32 x 64 LED Matrix Panel. The main logic is
+                            written in Python with a simple C program for low level control of the display.</p>
+
+                        <p>Current Features include: Time and Weather, Phone Notifications, Notion Support, Spotify
+                            Playback Control, GIF viewer, Game of Life, and Stock Price Viewer</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a
+                            href="https://gitfront.io/r/aliuliu121/61344a0f25cf0c1dfb476a062d62946392ca86eb/matrix-display/"
+                            target="_blank">GitHub</a> • <a href="https://imgur.com/a/8NkqXuK" target="_blank">More
+                            Media</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/dashboard01.jpg" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/dashboard01.jpg" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
+        <hr>
 
-<hr>
+        <a name="cloud"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>News Cloud <small>September 2019</small></h3>
+            <p class="project-tags">
 
-<a name="cloud"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>News Cloud <small>September 2019</small></h3>
-        <p class="project-tags">
-            
                 <span class="label label-warning">Team</span>
 
                 <span class="label label-default">Flask</span>
-    
+
                 <span class="label label-default">Javascript</span>
-            
+
                 <span class="label label-default">Python</span>
 
                 <span class="label label-default">Web Scraping</span>
 
                 <span class="label label-default">NLP</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">Submission for PennApps XX 2019</p>
-            <div class="project-summary">
-                <p>Chrome extension that overrides the new tab page with a word cloud automatically generated with trending phrases scrapped from various news sites.</p>
-
-                <p>A Flask app written in Python (for web scraping and natural language processing) and Javascript (site and word
-                    cloud generation).</p>
-                    
-                <p>Developed the word cloud generation script (written in purely Javascript) to algorithmically generate the cloud
-                    which implements various features such as text size normalization (scales all text to an ideal size for display),
-                    object collision detection (prevents any words of the cloud from overlapping), and parametric definition of cloud
-                    shape (allows for flexibility to handle different display form factors).</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://github.com/coffeeologist/newsCloud" target="_blank">GitHub</a> • <a href="https://devpost.com/software/news-cloud" target="_blank">DevPost</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">Submission for PennApps XX 2019</p>
+                    <div class="project-summary">
+                        <p>Chrome extension that overrides the new tab page with a word cloud automatically generated
+                            with trending phrases scrapped from various news sites.</p>
+
+                        <p>A Flask app written in Python (for web scraping and natural language processing) and
+                            Javascript (site and word
+                            cloud generation).</p>
+
+                        <p>Developed the word cloud generation script (written in purely Javascript) to algorithmically
+                            generate the cloud
+                            which implements various features such as text size normalization (scales all text to an
+                            ideal size for display),
+                            object collision detection (prevents any words of the cloud from overlapping), and
+                            parametric definition of cloud
+                            shape (allows for flexibility to handle different display form factors).</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a href="https://github.com/coffeeologist/newsCloud" target="_blank">GitHub</a> • <a
+                            href="https://devpost.com/software/news-cloud" target="_blank">DevPost</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/cloud01.jpg" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/cloud01.jpg" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
+        <hr>
 
-<hr>
+        <a name="mirror"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>Mirror Mirror <small>August 2019</small></h3>
+            <p class="project-tags">
 
-<a name="mirror"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>Mirror Mirror <small>August 2019</small></h3>
-        <p class="project-tags">
-    
                 <span class="label label-default">Javascript</span>
-            
+
                 <span class="label label-default">React.js</span>
 
                 <span class="label label-default">Node.js</span>
 
                 <span class="label label-default">Raspberry Pi</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">A smart mirror displaying basic metrics and features Google Calendar integration.</p>
-            <div class="project-summary">
-                <p>A smart mirror is essentially a monitor behind a two way mirror which can be connected to a computing device (in this case, a Raspberry Pi) to project various information onto the mirror itself.</p>
-
-                <p>At the core of this smart mirror is a Raspberry Pi which runs a Javascript web app (Node.js and React.js) to display metrics such as Time and Weather as well as more advanced information such as a list of upcoming events in your Google Calendar. Weather is handled through the OpenWeatherMap API while calendar integration is handled through the Google Calendar API.</p>
-                    
-                <p>I built this smart mirror for two reasons: to familiarize myself with Javascript (and the various libraries for it) and because smart mirrors are pretty cool.</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://github.com/aliuliu121/MirrorMirror" target="_blank">GitHub</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">A smart mirror displaying basic metrics and features Google Calendar integration.
+                    </p>
+                    <div class="project-summary">
+                        <p>A smart mirror is essentially a monitor behind a two way mirror which can be connected to a
+                            computing device (in this case, a Raspberry Pi) to project various information onto the
+                            mirror itself.</p>
+
+                        <p>At the core of this smart mirror is a Raspberry Pi which runs a Javascript web app (Node.js
+                            and React.js) to display metrics such as Time and Weather as well as more advanced
+                            information such as a list of upcoming events in your Google Calendar. Weather is handled
+                            through the OpenWeatherMap API while calendar integration is handled through the Google
+                            Calendar API.</p>
+
+                        <p>I built this smart mirror for two reasons: to familiarize myself with Javascript (and the
+                            various libraries for it) and because smart mirrors are pretty cool.</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a href="https://github.com/aliuliu121/MirrorMirror" target="_blank">GitHub</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/mirror01.jpg" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/mirror01.jpg" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
-    
-<hr>
+        <hr>
 
-<a name="power-method"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>Power Method <small>December 2018</small></h3>
-        <p class="project-tags">
-            
+        <a name="power-method"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>Power Method <small>December 2018</small></h3>
+            <p class="project-tags">
+
                 <span class="label label-warning">Group</span>
-    
+
                 <span class="label label-default">Python</span>
-            
+
                 <span class="label label-default">Linear Algebra</span>
 
                 <span class="label label-default">Coursework</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">Method for approximating the singular value decomposition of a matrix.</p>
-            <div class="project-summary">
-                <p>For the final project for my linear algebra class, my partner and I decided to implement the power method in Python. The power method is used to approximate the singular value decomposition (SVD) of a matrix which is necessary for many applications where the data sets are simply too large to efficiently calculate the actual SVD.</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://github.com/aliuliu121/powerMethod" target="_blank">GitHub</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">Method for approximating the singular value decomposition of a matrix.</p>
+                    <div class="project-summary">
+                        <p>For the final project for my linear algebra class, my partner and I decided to implement the
+                            power method in Python. The power method is used to approximate the singular value
+                            decomposition (SVD) of a matrix which is necessary for many applications where the data sets
+                            are simply too large to efficiently calculate the actual SVD.</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a href="https://github.com/aliuliu121/powerMethod" target="_blank">GitHub</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/matrix.jpg" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/matrix.jpg" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
-    
-<hr>
+        <hr>
 
-<a name="neonsff"></a> 
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>NeonSFF <small>May 2018</small></h3>
-        <p class="project-tags">
-            
+        <a name="neonsff"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>NeonSFF <small>May 2018</small></h3>
+            <p class="project-tags">
+
                 <span class="label label-default">3D Printing</span>
-    
+
                 <span class="label label-default">CAD</span>
 
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">A 3D printed small form factor computer case.</p>
-            <div class="project-summary">
-                <p>NeonSFF was designed to be as small as possible while still accomdating a discrete GPU and be made of mainly 3D printed parts. With the case being at just over 5 liters and over 95% PLA plastic, I would have to say that it was a success. Small enough to be easily transportable in a backpack while still being powerful enough for CAD work.</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://gitfront.io/r/aliuliu121/6cc078af5c5df060aaa0bfd9585218cbc8b5bbf2/NeonSFF/" target="_blank">GitHub</a> • <a href="https://imgur.com/a/R1UV9yf" target="_blank">More Photos</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">A 3D printed small form factor computer case.</p>
+                    <div class="project-summary">
+                        <p>NeonSFF was designed to be as small as possible while still accomdating a discrete GPU and be
+                            made of mainly 3D printed parts. With the case being at just over 5 liters and over 95% PLA
+                            plastic, I would have to say that it was a success. Small enough to be easily transportable
+                            in a backpack while still being powerful enough for CAD work.</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a
+                            href="https://gitfront.io/r/aliuliu121/6cc078af5c5df060aaa0bfd9585218cbc8b5bbf2/NeonSFF/"
+                            target="_blank">GitHub</a> • <a href="https://imgur.com/a/R1UV9yf" target="_blank">More
+                            Photos</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/neonsff01.jpg" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/neonsff01.jpg" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
-    
-<hr>
+        <hr>
 
-<a name="camera"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>Time Lapse Camera <small>September 2017</small></h3>
-        <p class="project-tags">
-    
+        <a name="camera"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>Time Lapse Camera <small>September 2017</small></h3>
+            <p class="project-tags">
+
                 <span class="label label-default">Raspberry Pi</span>
-            
+
                 <span class="label label-default">Python</span>
 
                 <span class="label label-default">3D Printing</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">3D printed Raspberry Pi based time lapse camera.</p>
-            <div class="project-summary">
-                    <p>Three days before NY Maker Faire 2017, I decided it would be cool to create a time lapse of my time there. I could have used my phone to record the time lapse, but then I can't use my phone while the time lapse is running and I would need to figure out a way to mount it to my torso. I also didn't want to shell out hundreds for a GoPro either.</p>
-
-                    <p>So I decided to build my own time lapse camera with the items I had laying around (and a quick trip to the local Microcenter). The camera is powered by a Raspberry Pi Zero and uses the Raspberry Pi Camera V2 with a cheap smartphone lens set. An enclosure was 3D printed and includes a magnetic shirt mount.</p>
-    
-                    <p>Running on the Raspberry Pi is a Python script that handles the camera and "time lapse" functionality. The camera itself does not actually create a video or gif file, but rather takes images at a specified interval. This collection of images can then be exported via SD card and stitched together into a time lapse in post.</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://imgur.com/a/4Xp7cFN" target="_blank">More Photos</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">3D printed Raspberry Pi based time lapse camera.</p>
+                    <div class="project-summary">
+                        <p>Three days before NY Maker Faire 2017, I decided it would be cool to create a time lapse of
+                            my time there. I could have used my phone to record the time lapse, but then I can't use my
+                            phone while the time lapse is running and I would need to figure out a way to mount it to my
+                            torso. I also didn't want to shell out hundreds for a GoPro either.</p>
+
+                        <p>So I decided to build my own time lapse camera with the items I had laying around (and a
+                            quick trip to the local Microcenter). The camera is powered by a Raspberry Pi Zero and uses
+                            the Raspberry Pi Camera V2 with a cheap smartphone lens set. An enclosure was 3D printed and
+                            includes a magnetic shirt mount.</p>
+
+                        <p>Running on the Raspberry Pi is a Python script that handles the camera and "time lapse"
+                            functionality. The camera itself does not actually create a video or gif file, but rather
+                            takes images at a specified interval. This collection of images can then be exported via SD
+                            card and stitched together into a time lapse in post.</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a href="https://imgur.com/a/4Xp7cFN" target="_blank">More Photos</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/camera01.jpg" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/camera01.jpg" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
-    
-<hr>
+        <hr>
 
-<a name="printer"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>3D Printer <small>June 2017</small></h3>
-        <p class="project-tags">
-    
+        <a name="printer"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>3D Printer <small>June 2017</small></h3>
+            <p class="project-tags">
+
                 <span class="label label-default">Arduino</span>
-            
+
                 <span class="label label-default">C</span>
 
                 <span class="label label-default">CAD</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">A fully functional 3D Printer built from scratch.</p>
-            <div class="project-summary">
-                <p>Back in junior year of high school, I really wanted to get my hands on my own 3D printer to supplement my passion for hobby electronics and robotics. But what do you do when you want a 3D printer but you are a broke high school student? You build your own for cheaper!</p>
-                    
-                <p>Therefore, I designed my own 3D printer in Autodesk Inventor. Then I borrowed my school's makerspace for weeks afterschool to fabricate the parts. It completed its first print in June 2017, though it would take few months more of modifications to really get it to a satisfactory state.</p>
-
-                <p>The printer is built upon the Arduino Mega microcontroller and the RAMPS 1.4 control board running the open source Repetier firmware. The printer has a 200mm by 200mm by 150mm print space and supports a wide range of filaments with an all metal hotend and heated bed.</p>
-
-                <p>Having access to a personal 3D printer not only allowed me to design custom part for projects moving forward, it also made me interested in 3D printing as a hobby rather than simply as a tool.</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://imgur.com/a/jMSvCcR" target="_blank">More Photos</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">A fully functional 3D Printer built from scratch.</p>
+                    <div class="project-summary">
+                        <p>Back in junior year of high school, I really wanted to get my hands on my own 3D printer to
+                            supplement my passion for hobby electronics and robotics. But what do you do when you want a
+                            3D printer but you are a broke high school student? You build your own for cheaper!</p>
+
+                        <p>Therefore, I designed my own 3D printer in Autodesk Inventor. Then I borrowed my school's
+                            makerspace for weeks afterschool to fabricate the parts. It completed its first print in
+                            June 2017, though it would take few months more of modifications to really get it to a
+                            satisfactory state.</p>
+
+                        <p>The printer is built upon the Arduino Mega microcontroller and the RAMPS 1.4 control board
+                            running the open source Repetier firmware. The printer has a 200mm by 200mm by 150mm print
+                            space and supports a wide range of filaments with an all metal hotend and heated bed.</p>
+
+                        <p>Having access to a personal 3D printer not only allowed me to design custom part for projects
+                            moving forward, it also made me interested in 3D printing as a hobby rather than simply as a
+                            tool.</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a href="https://imgur.com/a/jMSvCcR" target="_blank">More Photos</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/printer01.jpg" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/printer01.jpg" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
-    
-<hr>
+        <hr>
 
-<a name="artist"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>The Artist <small>April 2017</small></h3>
-        <p class="project-tags">
-            
+        <a name="artist"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>The Artist <small>April 2017</small></h3>
+            <p class="project-tags">
+
                 <span class="label label-warning">Team</span>
-    
+
                 <span class="label label-default">Arduino</span>
-            
+
                 <span class="label label-default">Raspberry Pi</span>
 
                 <span class="label label-default">C</span>
@@ -467,70 +572,79 @@
                 <span class="label label-default">Speech Recognition</span>
 
                 <span class="label label-default">Animatronics</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">1st Place in 2017 NJ State TSA Competition: Animatronics Event.</p>
-            <div class="project-summary">
-                <p>The Artist was originally designed to be an automaton capable of mimicking human behavior such as blinking, gazing, and speaking. It evolved over the course of development to include speech recognition and drawing capabilities (hence the name).</p>
-
-                <p>As the lead programmer, I was responsible for scripting animation and audio routines for the Artist in addition to working with another member on speech recognition. Speech recognition (via the CMU Sphinx library) was used to determine the correct shape or logo to draw. Animation scripts controlled various servos and hydraulics to imitate human behavior.</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://imgur.com/a/fwZXMVm" target="_blank">More Photos</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">1st Place in 2017 NJ State TSA Competition: Animatronics Event.</p>
+                    <div class="project-summary">
+                        <p>The Artist was originally designed to be an automaton capable of mimicking human behavior
+                            such as blinking, gazing, and speaking. It evolved over the course of development to include
+                            speech recognition and drawing capabilities (hence the name).</p>
+
+                        <p>As the lead programmer, I was responsible for scripting animation and audio routines for the
+                            Artist in addition to working with another member on speech recognition. Speech recognition
+                            (via the CMU Sphinx library) was used to determine the correct shape or logo to draw.
+                            Animation scripts controlled various servos and hydraulics to imitate human behavior.</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a href="https://imgur.com/a/fwZXMVm" target="_blank">More Photos</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/artist01.gif" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/artist01.gif" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
-    </div>
-</div>
-    
-<hr>
+        <hr>
 
-<a name="hand"></a>   
-<div class="project container">
-    <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
-        <h3>Animatronic Hand <small>April 2016</small></h3>
-        <p class="project-tags">
-            
+        <a name="hand"></a>
+        <div class="project container">
+            <div class="btn-toolbar pull-right" style="margin-top: 20px;"></div>
+            <h3>Animatronic Hand <small>April 2016</small></h3>
+            <p class="project-tags">
+
                 <span class="label label-warning">Team</span>
-    
+
                 <span class="label label-default">Arduino</span>
 
                 <span class="label label-default">C</span>
 
                 <span class="label label-default">Animatronics</span>
-        </p>
-    
-    <div class="row project-images">
-        <div class="col col-sm-8">
-            <p class="lead">1st Place in 2016 NJ State TSA Competition: Animatronics Event.</p>
-            <div class="project-summary">
-                <p>My team decided to create an animatronic hand that mirrors the operator's hand movements in real time.</p>
-
-                <p>The operator wears a glove that houses flex sensors for each finger. The sensors produce an analog signal based on the degree it is flexed. These analog values are received by an Arduino which translates the analog signal into a PWM digital signal for the servos. The servos, in turn, pull the strings that control each finger of the animatronic hand.</p>
-            </div>
-            
-            <p class="project-links">
-                Links: <a href="https://imgur.com/a/n30OThk" target="_blank">More Photos</a>
             </p>
+
+            <div class="row project-images">
+                <div class="col col-sm-8">
+                    <p class="lead">1st Place in 2016 NJ State TSA Competition: Animatronics Event.</p>
+                    <div class="project-summary">
+                        <p>My team decided to create an animatronic hand that mirrors the operator's hand movements in
+                            real time.</p>
+
+                        <p>The operator wears a glove that houses flex sensors for each finger. The sensors produce an
+                            analog signal based on the degree it is flexed. These analog values are received by an
+                            Arduino which translates the analog signal into a PWM digital signal for the servos. The
+                            servos, in turn, pull the strings that control each finger of the animatronic hand.</p>
+                    </div>
+
+                    <p class="project-links">
+                        Links: <a href="https://imgur.com/a/n30OThk" target="_blank">More Photos</a>
+                    </p>
+                </div>
+
+                <div class="col col-sm-4">
+                    <img src="./files/img/hand01.gif" class="img-responsive center-block">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
         </div>
 
-        <div class="col col-sm-4">
-            <img src="./files/img/hand01.gif" class="img-responsive center-block">         
-        </div>
-                
-        <div class="clearfix"></div>
     </div>
-</div>
-
-</div>
     <div class="footer">
         <p class="social-icons">
             <a href="https://github.com/aliuliu121"><i class="fab fa-github"></i></a>
@@ -543,4 +657,6 @@
     </div>
 
 
-</body></html>
+</body>
+
+</html>
